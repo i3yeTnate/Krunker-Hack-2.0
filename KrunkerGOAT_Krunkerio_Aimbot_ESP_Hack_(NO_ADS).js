@@ -11,7 +11,7 @@
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
-
+ 
 function _createForOfIteratorHelper(o, allowArrayLike) {
   var it =
     (typeof Symbol !== "undefined" && o[Symbol.iterator]) || o["@@iterator"];
